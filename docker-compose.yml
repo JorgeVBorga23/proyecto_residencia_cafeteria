@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+  backend:
+    build:
+      context: ./api_cafeteria_chatbot  # Ruta al Dockerfile del backend
+    ports:
+      - "3001:3001"
+    networks:
+      - red_residencia
+    depends_on:
+      - mongodb
+
+  frontend:
+    build:
+      context: ./app_cafeteria_residencia  # Ruta al Dockerfile del frontend
+    ports:
+      - "3002:3002"
+    networks:
+      - red_residencia
+    environment:
+      VITE_REACT_APP_API_URL: "http://recuerdosdeorizaba.ddns.net:3001"  # Configura la URL de la API para el frontend
+    depends_on:
+      - backend
+
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
+    networks:
+      - red_residencia
+    volumes:
+      - ./api_cafeteria_chatbot/mongo:/data/db
+
+networks:
+  red_residencia: 
+
+
+  
+  

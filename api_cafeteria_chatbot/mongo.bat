@@ -1,0 +1,1 @@
+docker run --rm -p 27017:27017 -v mongo:/data/db mongo

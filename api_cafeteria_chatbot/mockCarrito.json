@@ -1,0 +1,52 @@
+{
+    "_id": "6520723ced4136ae3cafb9bf",
+    "identificadorUnico": "jorge3r23973398wdbvwe_wfwefef_Wfwefew",
+    "productos": [
+        {
+            "producto": {
+                "_id": "6520723ced4136ae3cafb9bf",
+                "id": 5,
+                "name": "Cafe americano",
+                "price": 23,
+                "stock": 2,
+                "description": "taza de 10oz de cafe americano",
+                "__v": 0
+            },
+            "cantidad": 5,
+            "subtotal": 115,
+            "comentarios": "Sin azucar, bien cargado" 
+        },
+        {
+            "producto": {
+                "_id": "6520723ced4136ae3cafb9bf",
+                "id": 5,
+                "name": "Cafe americano",
+                "price": 23,
+                "stock": 2,
+                "description": "taza de 10oz de cafe americano",
+                "__v": 0
+            },
+            "cantidad": 5,
+            "subtotal": 115,
+            "comentarios": "Sin azucar, bien cargado" 
+        },
+        {
+            "producto": {
+                "_id": "6520723ced4136ae3cafb9bf",
+                "id": 5,
+                "name": "Cafe americano",
+                "price": 23,
+                "stock": 2,
+                "description": "taza de 10oz de cafe americano",
+                "__v": 0
+            },
+            "cantidad": 5,
+            "subtotal": 115,
+            "comentarios": "Sin azucar, bien cargado" 
+        }
+    ],
+    "subtotal": 448.51,
+    "impuesto": 16,
+    "total_impuesto": 48,
+    "total": 500
+}
