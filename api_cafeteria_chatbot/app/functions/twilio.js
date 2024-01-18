@@ -1,6 +1,6 @@
-const accountSid = "AC1b3e9508381a067eaed981bce39dce5b";
-const authToken = "def881ccfe93e1a3db4d732dba7ad0af";
-const twilioNumber = "+12058505128";
+const accountSid = "";
+const authToken = "";
+const twilioNumber = "";
 
 const twilio = require("twilio");
 const Codigo = require("../models/CodigoSMS");
